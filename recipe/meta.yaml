@@ -21,7 +21,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - flit-core >=3.4, <4
+    - flit-core >=3.4,<4
   run:
     - astropy-base <7,>=6.0
     - astroquery >=0.3.9
@@ -32,7 +32,7 @@ requirements:
     - pandas
     - plotly <6,>=4.0
     - pyerfa
-    - python >={{ python_min }}, <={{ python_max }}
+    - python >={{ python_min }},<={{ python_max }}
     - scipy >=1.4.0
     - cached-property
     - pyerfa
