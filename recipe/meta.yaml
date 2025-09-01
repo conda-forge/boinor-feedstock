@@ -1,5 +1,5 @@
 {% set name = "boinor" %}
-{% set version = "0.18.7" %}
+{% set version = "0.19.0" %}
 {% set python_min = "3.9" %}
 {% set python_max = "3.13" %}
 
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/boinor-{{ version }}.tar.gz
-  sha256: 7a2758ee112a3b14504cf261fae84fd2ba4e4040cebda5b7866ed2341c011d80
+  sha256: b333feceb79ea190d5205735f664506b74a94241da096a7996ca5cf8ea88c280
 
 build:
   number: 0
