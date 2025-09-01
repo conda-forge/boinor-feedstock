@@ -28,7 +28,7 @@ requirements:
     - jplephem
     - matplotlib-base !=3.0.1,>=2.0
     - numba >=0.53.0
-    - numpy <=1.30
+    - numpy >= 2.0
     - pandas
     - plotly <6,>=4.0
     - pyerfa
