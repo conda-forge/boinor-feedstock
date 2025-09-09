@@ -32,7 +32,7 @@ requirements:
     - pandas
     - plotly <6,>=4.0
     - pyerfa
-    - python >={{ python_min }},<={{ python_max }}
+    - python >={{ python_min }},<={{ python_max }}.*
     - scipy >=1.4.0
     - cached-property
     - pyerfa
