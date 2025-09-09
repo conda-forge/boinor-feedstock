@@ -1,7 +1,7 @@
 {% set name = "boinor" %}
 {% set version = "0.19.0" %}
 {% set python_min = "3.10" %}
-{% set python_max = "3.13" %}
+{% set python_max = "3.14" %}
 
 
 package:
@@ -32,7 +32,7 @@ requirements:
     - pandas
     - plotly <6,>=4.0
     - pyerfa
-    - python >={{ python_min }},<={{ python_max }}.*
+    - python >={{ python_min }},<{{ python_max }}
     - scipy >=1.4.0
     - cached-property
     - pyerfa
