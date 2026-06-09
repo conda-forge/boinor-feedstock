@@ -35,6 +35,8 @@ requirements:
     - pyerfa
     - python >={{ python_min }},<{{ python_max }}
     - scipy >=1.4.0
+    - vispy >=0.16.0
+    - spiceypy
 
 test:
   imports:
